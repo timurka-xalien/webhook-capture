@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/WebhookCapture/v15/Server/sqlite3
+/.vs/WebhookCapture/v15/.suo
+/.vs
+/WebhookCapture/bin
+/WebhookCapture/obj
+/WebhookCapture/WebhookCapture.csproj.user

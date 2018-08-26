@@ -1,0 +1,109 @@
+
+
+===== 8/22/2018 11:42:51 AM === Data received:
+Headers
+:{"Cache-Control":["no-cache"],"Connection":["Keep-Alive"],"Content-Type":["application/json"],"Accept":["*/*"],"Accept-Encoding":["gzip, deflate"],"Cookie":["__RequestVerificationToken=vHnJVjxl28fOqIiJQc1yzypyD6TxY6Ec2foSxw1sAcTeRwLfcu1rygNjBUhFhnAGWew_3e-1nPXEjSQE6U0cdH3ti6Tghm3GtlSg83nklpM1; noaffiliate=true; ab=s"],"Host":["localhost:22664"],"User-Agent":["PostmanRuntime/7.1.1"],"Content-Length":["1843"],"Postman-Token":["b205b9d8-ebec-4bb9-8cc2-240b0ccc1944"],"MS-ASPNETCORE-TOKEN":["10553d71-7329-4c9e-ac0f-22a298c33b11"],"X-Original-Proto":["http"],"X-Original-For":["127.0.0.1:3960"]}
+Body:
+{
+  "id": "ch_1CzJlA2sPLeNy3WmkL8Xc5cI",
+  "object": "charge",
+  "amount": 999,
+  "amount_refunded": 0,
+  "application": null,
+  "application_fee": null,
+  "balance_transaction": "txn_1CzJlB2sPLeNy3WmoMKvBcju",
+  "captured": true,
+  "created": 1534319380,
+  "currency": "usd",
+  "customer": null,
+  "description": "losing_evidence",
+  "destination": null,
+  "dispute": null,
+  "failure_code": null,
+  "failure_message": null,
+  "fraud_details": {},
+  "invoice": null,
+  "livemode": false,
+  "metadata": {},
+  "on_behalf_of": null,
+  "order": null,
+  "outcome": {
+    "network_status": "approved_by_network",
+    "reason": null,
+    "risk_level": "normal",
+    "seller_message": "Payment complete.",
+    "type": "authorized"
+  },
+  "paid": true,
+  "receipt_email": null,
+  "receipt_number": null,
+  "refunded": false,
+  "refunds": {
+    "object": "list",
+    "data": [],
+    "has_more": false,
+    "total_count": 0,
+    "url": "/v1/charges/ch_1CzJlA2sPLeNy3WmkL8Xc5cI/refunds"
+  },
+  "review": null,
+  "shipping": null,
+  "source": {
+    "id": "card_1CzJlA2sPLeNy3WmobcQXNkw",
+    "object": "card",
+    "address_city": null,
+    "address_country": null,
+    "address_line1": null,
+    "address_line1_check": null,
+    "address_line2": null,
+    "address_state": null,
+    "address_zip": null,
+    "address_zip_check": null,
+    "brand": "Visa",
+    "country": "US",
+    "customer": null,
+    "cvc_check": null,
+    "dynamic_last4": null,
+    "exp_month": 8,
+    "exp_year": 2019,
+    "fingerprint": "SIchUyPQoGxJxsiu",
+    "funding": "credit",
+    "last4": "0259",
+    "metadata": {},
+    "name": null,
+    "tokenization_method": null
+  },
+  "source_transfer": null,
+  "statement_descriptor": null,
+  "status": "succeeded",
+  "transfer_group": null
+}
+
+===== 8/22/2018 11:58:02 AM === Data received:
+Headers
+:{"Cache-Control":["no-cache"],"Connection":["Keep-Alive"],"Content-Type":["multipart/form-data; boundary=--------------------------618773224756412145162958"],"Accept":["*/*"],"Accept-Encoding":["gzip, deflate"],"Cookie":["__RequestVerificationToken=vHnJVjxl28fOqIiJQc1yzypyD6TxY6Ec2foSxw1sAcTeRwLfcu1rygNjBUhFhnAGWew_3e-1nPXEjSQE6U0cdH3ti6Tghm3GtlSg83nklpM1; noaffiliate=true; ab=s"],"Host":["localhost:22664"],"User-Agent":["PostmanRuntime/7.1.1"],"Content-Length":["359"],"Postman-Token":["0d833400-a07e-4399-8675-f16d337e1200"],"MS-ASPNETCORE-TOKEN":["d5f39c96-76a7-4e24-9022-293553f28170"],"X-Original-Proto":["http"],"X-Original-For":["127.0.0.1:4052"]}
+Body:
+q","Value":"w"},e","Value":"r"},r","Value":"t"}
+
+===== 8/22/2018 11:59:00 AM === Data received:
+Headers
+:{"Cache-Control":["no-cache"],"Connection":["Keep-Alive"],"Content-Type":["multipart/form-data; boundary=--------------------------618773224756412145162958"],"Accept":["*/*"],"Accept-Encoding":["gzip, deflate"],"Cookie":["__RequestVerificationToken=vHnJVjxl28fOqIiJQc1yzypyD6TxY6Ec2foSxw1sAcTeRwLfcu1rygNjBUhFhnAGWew_3e-1nPXEjSQE6U0cdH3ti6Tghm3GtlSg83nklpM1; noaffiliate=true; ab=s"],"Host":["localhost:22664"],"User-Agent":["PostmanRuntime/7.1.1"],"Content-Length":["359"],"Postman-Token":["0d833400-a07e-4399-8675-f16d337e1200"],"MS-ASPNETCORE-TOKEN":["d5f39c96-76a7-4e24-9022-293553f28170"],"X-Original-Proto":["http"],"X-Original-For":["127.0.0.1:4052"]}
+Body:
+q="w"},e="r"},r="t"}
+
+===== 8/22/2018 12:00:42 PM === Data received:
+Headers
+:{"Cache-Control":["no-cache"],"Connection":["Keep-Alive"],"Content-Type":["multipart/form-data; boundary=--------------------------552807880512749837565579"],"Accept":["*/*"],"Accept-Encoding":["gzip, deflate"],"Cookie":["__RequestVerificationToken=vHnJVjxl28fOqIiJQc1yzypyD6TxY6Ec2foSxw1sAcTeRwLfcu1rygNjBUhFhnAGWew_3e-1nPXEjSQE6U0cdH3ti6Tghm3GtlSg83nklpM1; noaffiliate=true; ab=s"],"Host":["localhost:22664"],"User-Agent":["PostmanRuntime/7.1.1"],"Content-Length":["359"],"Postman-Token":["2f12d230-84ff-40f2-99a0-9613c07e60be"],"MS-ASPNETCORE-TOKEN":["d5f39c96-76a7-4e24-9022-293553f28170"],"X-Original-Proto":["http"],"X-Original-For":["127.0.0.1:4052"]}
+Body:
+q="w&e="r&r="t"}
+
+===== 8/22/2018 12:01:02 PM === Data received:
+Headers
+:{"Cache-Control":["no-cache"],"Connection":["Keep-Alive"],"Content-Type":["multipart/form-data; boundary=--------------------------270690118342255572188641"],"Accept":["*/*"],"Accept-Encoding":["gzip, deflate"],"Cookie":["__RequestVerificationToken=vHnJVjxl28fOqIiJQc1yzypyD6TxY6Ec2foSxw1sAcTeRwLfcu1rygNjBUhFhnAGWew_3e-1nPXEjSQE6U0cdH3ti6Tghm3GtlSg83nklpM1; noaffiliate=true; ab=s"],"Host":["localhost:22664"],"User-Agent":["PostmanRuntime/7.1.1"],"Content-Length":["359"],"Postman-Token":["4909ef92-150d-465f-8167-6ca625da62aa"],"MS-ASPNETCORE-TOKEN":["d5f39c96-76a7-4e24-9022-293553f28170"],"X-Original-Proto":["http"],"X-Original-For":["127.0.0.1:4052"]}
+Body:
+q=w&e=r&r=t
+
+===== 8/22/2018 12:03:04 PM === Data received:
+Headers
+:{"Cache-Control":["no-cache"],"Connection":["Keep-Alive"],"Content-Type":["multipart/form-data; boundary=--------------------------781070863219150166440160"],"Accept":["*/*"],"Accept-Encoding":["gzip, deflate"],"Cookie":["__RequestVerificationToken=vHnJVjxl28fOqIiJQc1yzypyD6TxY6Ec2foSxw1sAcTeRwLfcu1rygNjBUhFhnAGWew_3e-1nPXEjSQE6U0cdH3ti6Tghm3GtlSg83nklpM1; noaffiliate=true; ab=s"],"Host":["localhost:22664"],"User-Agent":["PostmanRuntime/7.1.1"],"Content-Length":["1054"],"Postman-Token":["17148734-eea3-4751-91ec-9307fec07716"],"MS-ASPNETCORE-TOKEN":["d5f39c96-76a7-4e24-9022-293553f28170"],"X-Original-Proto":["http"],"X-Original-For":["127.0.0.1:4136"]}
+Body:
+payer_id=GWDGFVK6F9FPQ&address_country_code=US&ipn_track_id=25c598f4b4e9d&address_zip=95131&charset=windows-1252&payment_gross=75.00&address_status=confirmed&address_street=1 Main St&verify_sign=A93VdtMeUFc4Sr8FAFKvJxCma5jpA4khAj6xi6kNoI5RlY2B8KGFHuLE&item_name=2-year&test_ipn=1&txn_type=web_accept&receiver_id=EMEY3NVDVSS36&payment_fee=2.48&mc_currency=USD&transaction_subject=&custom=20&protection_eligibility=Eligible&address_country=United States&payer_status=verified&first_name=Iam&address_name=Iam Buyer&mc_gross=75.00&payment_date=04=02:55 Aug 21, 2018 PDT&payment_status=Completed&quantity=1&business=atkaranda-business@gmail.com&item_number=&last_name=Buyer&address_state=CA&txn_id=5WX34056E36364056&mc_fee=2.48&resend=true&payment_type=instant&notify_version=3.8&payer_email=atkaranda-buyer2@gmail.com&receiver_email=atkaranda-business@gmail.com&address_city=San Jose&residence_country=US
